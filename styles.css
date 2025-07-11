@@ -13,15 +13,39 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  min-width: 320px;
+}
+
+.header {
+  background-color: rgb(245, 218, 232);
 }
 
 .footer {
-  border: solid red 2px;
+  background-color: rgb(245, 218, 232);
 }
 
 .container {
   max-width: 1440px;
   margin: 0 auto;
+  min-height: 50px;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section {
+  width: 50%;
+}
+
+.section-profile {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 30px 35px;
+  border-bottom: 5px solid rgb(179, 179, 179);
+  width: 100%;
 }
 
 .nav-list {
@@ -31,4 +55,71 @@ body {
   list-style: none;
   padding: 0 20px;
   line-height: 50px;
+}
+
+.nav-link {
+  position: relative;
+  line-height: 50px;
+  padding: 0 12px;
+  color: rgb(193, 46, 112);
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+
+.main {
+  display: block;
+}
+
+.section-profile-logo {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 100px;
+}
+
+.section-title {
+  margin-bottom: 20px;
+  color: rgb(193, 46, 112);
+  font-weight: 200;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.main-title {
+  color: rgb(57, 57, 57);
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.section-item {
+  color: rgb(57, 57, 57);
+  text-decoration: none;
+  position: relative;
+  margin: 0 0 10px;
+  padding: 0 0 0 30px;
+}
+
+.section-item.contacts-item {
+  color: rgb(57, 57, 57);
+  text-decoration: none;
+  position: relative;
+  margin: 0 0 10px;
+  padding: 0 0 0 30px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(57, 57, 57);
+}
+.pre {
+  padding: 0;
+  margin: 0;
+  display: block;
 }
