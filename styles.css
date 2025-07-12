@@ -5,8 +5,10 @@
 html {
   scroll-behavior: smooth;
 }
-
-body {
+head {
+  display: none;
+}
+ body {
   min-height: 100vh;
   margin: 0;
   padding: 0;
@@ -28,6 +30,7 @@ body {
   max-width: 1440px;
   margin: 0 auto;
   min-height: 50px;
+  padding: 0 20px;
 }
 
 .main-container {
@@ -38,6 +41,7 @@ body {
 
 .section {
   width: 50%;
+  padding: 10px;
 }
 
 .section-profile {
@@ -92,10 +96,26 @@ body {
   text-transform: uppercase;
 }
 
+.section-profile-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
 .main-title {
+  margin-top: 20px;
   color: rgb(57, 57, 57);
-  text-transform: capitalize;
+  text-transform: uppercase;
   font-weight: 500;
+}
+
+.subtitle {
+  margin-top: 20px;
+  line-height: 40px;
+  font-weight: 200;
+  letter-spacing: 2px;
+  color: rgb(133, 129, 132);
 }
 
 .section-item {
