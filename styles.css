@@ -171,7 +171,7 @@ a {
   color:black;
 }
 
-@media screen and (max-width:760px) { 
+@media screen and (max-width:760px) {
   .section {
     width: 100%;
   }
@@ -191,7 +191,7 @@ a {
   }
 }
 
-@media screen and (max-width:565px) { 
+@media screen and (max-width:565px) {
   .section {
     width: 100%;
   }
@@ -219,7 +219,7 @@ a {
     font-size: 23px;
   }
 }
-@media screen and (max-width:420px) { 
+@media screen and (max-width:420px) {
   .nav-link {
     font-size: 15px;
   }
