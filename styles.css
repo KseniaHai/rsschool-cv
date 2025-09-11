@@ -210,6 +210,8 @@ a {
   }
   .nav-item {
     width: 30%;
+    display: flex;
+    justify-content: space-around;
   }
   .footer-container {
     flex-direction: column;
